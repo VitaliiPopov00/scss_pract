@@ -1,0 +1,27 @@
+@mixin centerChildrenBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin standartFlexContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin centerCurrentWithHorizontal {
+    margin-inline: auto;
+}
+
+@mixin standartFontStyle {
+    color: $standartColor;
+    font-family: $standartFont;
+    font-size: $standartFontSize;
+}
+
+@mixin headingFontStyle {
+    color: $primaryColor;
+    font-family: $primaryFont;
+    font-size: $headingFontSize;
+}
